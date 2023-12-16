@@ -1,0 +1,149 @@
+@import url(navbar.css);
+@import url(home.css);
+@import url(part-1.css);
+@import url(part-2.css);
+@import url(part-3.css);
+@import url(part-4.css);
+@import url(part-5.css);
+@import url(part-6.css);
+@import url(part-7.css);
+@import url(part-8.css);
+@import url(part-9.css);
+@import url(footer.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --primary: #353535;
+    --secondary: #d2d2d2;
+    --terciaria: #f7f7f7;
+    --new: #EBEBEB;
+    --font-color-primary: #353535;
+    --font-color-secondary: #d2d2d2;
+    --font-titulo-size:1.5em;
+    --font-titulo-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--new);
+}
+
+main{
+    background-color: var(--new);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section{
+    max-width: 100%;
+}
+
+
+h2{
+    /* color: red; */
+    font-size: 1em;
+    font-weight: 700;
+}
+h4{
+    font-size: 1em;
+    font-weight: 600;
+    margin: 0;
+}
+
+h6{
+    color: var(--font-color-primary);
+    font-weight: 600;
+}
+
+p{
+    font-weight: 300;
+}
+
+
+.part-1,
+.part-2,
+.part-3,
+.part-4,
+.part-5,
+.part-6,
+.part-7,
+.part-8,
+.part-9{
+    margin-top: 10vh;
+    min-height: 40vh;
+}
+.container-home,
+.container-cabecalho,
+.container-part-1,
+.container-part-2,
+.container-part-3,
+.container-part-4,
+.container-part-5,
+.part-6-titulo,
+.container-7-titulo,
+.container-part-9-titulo p,
+footer{
+    padding: 0px 20px;
+}
+.titulo-container-8{
+    padding: 0px 15px 0px 0px;
+}
+
+/* ------------------------------------------------------- */
+/* Breakpoints  */
+@media (max-width:480px) {   
+    .carousel-max{
+        display: none;
+    }
+}
+
+@media (min-width:481px) and (max-width:767px){
+    .carousel-max{
+        display: none;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .cards-part-4-min,
+    .carousel-min{
+        display: none;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px){
+    .cards-part-4-min,
+    .carousel-min{
+        display: none;
+    }
+}
+
+@media (min-width:1200px) and (max-width:1919px){
+    .cards-part-4-min,
+    .carousel-min{
+        display: none;
+    }
+}
+
+@media (min-width:1920px){
+    .cards-part-4-min,
+    .carousel-min{
+        display: none;
+    }
+}

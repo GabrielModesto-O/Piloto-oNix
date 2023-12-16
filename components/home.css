@@ -1,0 +1,47 @@
+.home{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/onix.jpg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(80vh - 50px);
+}
+
+.container-home{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 1200px;
+    height: 100%;
+}
+
+.container-home span{
+    color: white;   
+    text-shadow: 5px 3px 8px rgba(0, 0, 0, 1);
+    font-size: 5em;
+    font-weight: 200;
+
+}
+
+@media (max-width:480px) {
+    h2{
+        font-size: .8em;
+    }
+    h4{
+        font-size: .8em;
+    }
+    p{
+        color: var(--font-color-primary);
+        font-size: .8em;
+        font-size: .9em;
+    }
+    .container-home span{
+        color: white;   
+        font-size: 3em;
+        font-weight: 200;
+    }
+}
+
+

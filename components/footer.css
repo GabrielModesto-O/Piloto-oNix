@@ -1,0 +1,53 @@
+footer{
+    width: 100%;
+    min-height: 50px;
+    font-size: 0.8em;
+    background-color: #202020;
+    color: #D2D2D2;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    background-color: #202020;
+}
+    footer a{
+        text-decoration: none;
+        color: #D2D2D2;
+    }   
+
+    footer div{
+        width: auto;
+        padding: 10px 0px;
+    }
+
+    footer span{
+        font-weight: 400;
+    }
+@media (max-width:480px) {
+    footer, footer a{
+        font-size: 10px;
+    }
+
+    footer{
+        padding: 10px 0px;
+    }
+
+    .container-footer{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-footer div{
+        padding: 5px 0px;
+    }
+}
